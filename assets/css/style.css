@@ -1,0 +1,11 @@
+* {
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --primary-color: rgba(31,156,169,1);
+   --secondary-color: rgba(44,17,112,1);
+   --tertiary-color: rgba(33,140,90,1);
+}
