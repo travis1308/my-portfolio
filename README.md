@@ -11,7 +11,7 @@ Below are the listing of current projects that I'm working on or have completed 
 * Horiseon
    * ![Horiseon](assets/images/horiseon-1.JPG?raw=true "Horiseon")
 * My Portfolio Page
-   * Screenshot below
+   * ![My_Portfolio](assets/images/portfolio.jpg?raw=true "My Portfolio")
 * Future Project
 * Future Project
 * Future Project
