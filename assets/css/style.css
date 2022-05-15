@@ -83,7 +83,7 @@ header nav a:last-child {
 
 .jumbotron {
    background: rgb(68,88,120);
-   background-image: url("../images/jumbotron.jpg"), linear-gradient(180deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+   background-image: url("../images/jumbotron.JPG"), linear-gradient(180deg, var(--secondary-color) 0%, var(--primary-color) 100%);
    background-size: cover;
    background-position: center;
    background-blend-mode: soft-light;
