@@ -5,7 +5,7 @@ This is a web page devoted to my projects and everything about me, Travis Witt, 
 
 ### Projects
 * Run Buddy
-   * ![GitHub Logo](images/logo.png)
+   * (images/run-buddy.jpg?raw=true "Run Buddy")
 * Horiseon
    * Screenshot below
 * My Portfolio Page
