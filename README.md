@@ -5,8 +5,11 @@ This is a web page devoted to my projects and everything about me, Travis Witt, 
 
 ### Projects
 * Run Buddy
+   * ![GitHub Logo](images/logo.png)
 * Horiseon
+   * Screenshot below
 * My Portfolio Page
+   * Screenshot below
 * Future Project
 * Future Project
 * Future Project
