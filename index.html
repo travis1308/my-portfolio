@@ -1,88 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <title>Travis Witt // Future Web Developer</title>
-      <link rel="stylesheet" href="./assets/css/style.css" />
-   </head>
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+   <title>Travis Witt // Future Web Developer</title>
+   <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-   <body>
-      <!--header and nav elements-->
-      <header>
-         <h1>Travis Witt</h1>
-         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#my-Work">My Work</a>
-            <a href="#contact-me">Contact Me!</a>
-            <a href="#my-resume">My Resume</a>
-         </nav>
-      </header>
+<body>
+   <!--header and nav elements-->
+   <header>
+      <h1>Travis Witt</h1>
+      <nav>
+         <a href="#about-me">About Me</a>
+         <a href="#my-Work">My Work</a>
+         <a href="#contact-me">Contact Me!</a>
+         <a href="#my-resume">My Resume</a>
+      </nav>
+   </header>
 
-      <!--jumbotron wallpaper-->
-      <section class="jumbotron">
+   <!--jumbotron wallpaper-->
+   <section class="jumbotron">
+      <div>
+         <h3>This is my World!</h3>
+      </div>
+   </section>
+
+   <main class="whole-page">
+      <!--about me-->
+      <section class="web-section" id="about">
+         <h2>About Me</h2>
          <div>
-            <h3>Welcome to my world!</h3>
+            <p>
+               My name is Travis Witt. I have been working in the Information Technology industry since 2008 when I joined the United States Navy.
+               Ever since, I have worked several positions in Technical Support. My goal now is to begin working in the web development
+               sector of IT.
+            </p>
+         </br>
+            <p>
+               Personally, I am a father to 2 fur babies aptly named "Google" and "Cisco". My wife came up with those names and I fell in love with them as 
+               soon as I heard them. My wife and I are expecting our first child this December 2022. We are praying for a baby girl, but will love either
+               as our own. I love to practice Photograhy in my free time and that's why a couple of the photos on this page are actually taken by myself when
+               I was station in San Diego, CA.
+            </p>
          </div>
       </section>
-      <main class="whole-page">
-         <!--about me-->
-         <section class="section-heading">
-            <h2 class="secondary-heading">
-               About Me
-            </h2>
-            <p>
-               asd;flkasdjfl;asdkj
-            </p>
-            <p>
-               as;dlkfjasdl;fkjads;lkfj
-            </p>
-         </section>
 
-         <!--my work-->
-         <section class="section-heading">
-            <h2 class="secondary-heading">
-               My Work
-            </h2>
-            <article class="work-heading">
-               <h3>
-                  <a href="">Surf Report</a>
-               </h3>
-            </article>
-            <article class="work-heading">
-               <h3>
-                  <a href="">LED Wall</a>
-               </h3>
-            </article>
-            <article class="work-heading">
-               <h3>
-                  <a href="">Calculator</a>
-               </h3>
-            </article>
-            <article class="work-heading">
-               <h3>
-                  <a href="">Pastel Puzzels</a>
-               </h3>
-            </article>
-            <article class="work-heading">
-               <h3>
-                  <a href="">Run Buddy</a>
-               </h3>
-            </article>
-         </section>
+      <!--my work-->
+      <section class="web-section" id="work">
+         <h2>My Work</h2>
+         <div class="flex-articles"> 
+            <a href="#" class="flex-section surf-report">
+               <div>
+                  <h3>Surf Report</h3>
+                  <span>MERN Stack</span>
+               </div>
+            </a>
 
-         <!--Contact Me-->
-         <section class="section-heading">
-            <h2>Contact Me</h2>
-            <div>
-               <address>
-                  <a href="tel:+13142021897">314.202.1897</a>
-                  <a href="mailto:travis.witt13@gmail.com">TRAVIS.WITT13@GMAIL.COM</a>
-                  <a href="https://travis1308.github.com">GitHub</a>
-                  <a href="https://twitter.com/travis1308">Twitter</a>
-                  <a href="https://www.linkedin.com/in/travis-w-3b688092/">LinkedIn</a>
-               </address>
-            </div>
-         </section>
-      </main>
-   </body>
+            <a href="#" class="flex-section led-wall">
+               <div>
+                  <h3>LED Wall</h3>
+                  <span>Node/IoT</span>
+               </div>
+            </a>
+
+            <a href="#" class="flex-section react-calc">
+               <div>
+                  <h3>Calculator</h3>
+                  <span>React/JavaScript/CSS</span>
+               </div>
+            </a>
+
+            <a href="#" class="flex-section pastel-puzzels">
+               <div>
+               <h3>Pastel Puzzels</h3>
+               <span>MERN Stack</span>
+               </div>
+            </a>
+
+            <a href="#" class="flex-section run-buddy">
+               <div>
+                  <h3>Run Buddy</h3>
+                  <span>HTML/CSS</span>
+               </div>
+            </a>
+         </div>
+      </section>
+
+      <!--Contact Me-->
+      <section class="web-section contact" id="contact">
+         <h2>Contact Me</h2>
+         <div>
+            <address>
+               <a href="tel:+13142021897">314.202.1897</a>
+               <a href="mailto:travis.witt13@gmail.com">TRAVIS.WITT13@GMAIL.COM</a>
+               <a href="https://travis1308.github.com">GitHub</a>
+               <a href="https://twitter.com/travis1308">Twitter</a>
+               <a href="https://www.linkedin.com/in/travis-w-3b688092/">LinkedIn</a>
+            </address>
+         </div>
+      </section>
+   </main>
+</body>
 </html>
