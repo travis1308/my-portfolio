@@ -166,6 +166,7 @@ header nav a:last-child {
    background-size: 150%;
    transition: all 0.5s;
    font-size: 0.9rem;
+   border-radius: 20px;
 }
 
 /* Featuring First Portfolio Item */
