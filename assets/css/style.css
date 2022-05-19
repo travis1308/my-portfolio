@@ -4,9 +4,9 @@
 
 /*color pallet for web page*/
 :root {
-   --primary-color: rgba(72,90,113,1);
-   --secondary-color: rgba(144,185,204,1);
-   --tertiary-color: rgba(45,55,90,1);
+   --primary-color: rgba(48, 129, 124, 0.925);
+   --secondary-color: rgba(78, 140, 168, 0.925);
+   --tertiary-color: rgba(28, 37, 68, 0.925);
    --dark: rgba(28,28,28,1);
    --light: rgba(234,232,233,1);
 }
@@ -16,7 +16,7 @@ body {
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
    color: var(--primary-color);
-   background-color: var(--light);
+   background-color: var(--tertiary-color);
    line-height: 1.5;
 }
 
@@ -36,7 +36,6 @@ header {
    flex-wrap: wrap;
    align-items: center;
    background-color: var(--tertiary-color);
-   
 }
 
 header h1 {
@@ -69,7 +68,7 @@ header nav a {
 
 header nav a:hover {
    background-size: 100% 100%;
-   color: var(--primary-color);
+   color: var(--light);
 }
 
 header nav a:last-child {
@@ -86,7 +85,6 @@ header nav a:last-child {
    background-image: url("../images/jumbotron.JPG"), linear-gradient(180deg, var(--secondary-color) 0%, var(--primary-color) 100%);
    background-size: cover;
    background-position: center;
-   background-blend-mode: soft-light;
    min-height: 30vh;
    color: var(--light);
    padding: 2% 6%;
@@ -101,10 +99,9 @@ header nav a:last-child {
 }
 
 .jumbotron div h3 {
-   background-color: var(--secondary-color);
-   color: var(--tertiary-color);
+   color: rgba(15, 131, 139, 0.459);
    margin: 0;
-   padding: 5px 10px;
+   padding: 5px 50px 5px 0;
    font-size: 2.3rem;
    line-height: 1.2;
    display: inline;
@@ -162,7 +159,6 @@ header nav a:last-child {
    padding: 0 0 20px 0;
    margin: 0.5em;
    text-decoration: none;
-   background-blend-mode: soft-light;
    background-size: 150%;
    transition: all 0.5s;
    font-size: 0.9rem;
@@ -197,7 +193,7 @@ header nav a:last-child {
 }
 
 .contact address a {
-   color: var(--tertiary-color);
+   color: var(--light);
    padding: 5px;
    text-decoration: none;
    font-size: 1.3rem;
@@ -213,7 +209,6 @@ header nav a:last-child {
 
 .contact address a:hover {
    background-size: 100% 88%;
-   color: var(--secondary-color);
 }
 
 /* Begin Portfolio Background Images */
